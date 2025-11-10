@@ -77,11 +77,14 @@ Version: 1.0
 /* Hero image*/
 
 .hero {
+  display: flex;
   top: 0;
   left: 0;
-  width: fit-content;
+  width: 100%;
   height: auto;
+  padding: 0;
 }
+<<<<<<< HEAD
 .hero-info {
   display: flex;
   flex-direction: row;
@@ -93,6 +96,29 @@ Version: 1.0
   padding-top: 50px;
   padding-bottom: 50px;
 }
+=======
+
+.text-row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.text-stack {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.icon-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: end;
+}
+
+>>>>>>> origin/main
 /* image row class */
 .image-row {
   display: flex;
