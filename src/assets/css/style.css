@@ -73,6 +73,15 @@ Version: 1.0
   right: 8px;
   opacity: 1;
 }
+
+/* Hero image*/
+
+.hero {
+  top: 0;
+  left: 0;
+  width: fit-content;
+  height: auto;
+}
 /* image row class */
 .image-row {
   display: flex;
