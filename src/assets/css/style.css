@@ -84,19 +84,6 @@ Version: 1.0
   height: auto;
   padding: 0;
 }
-<<<<<<< HEAD
-.hero-info {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-/* Our story section */
-#our-story {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-=======
 
 .text-row {
   display: flex;
@@ -118,7 +105,6 @@ Version: 1.0
   justify-content: end;
 }
 
->>>>>>> origin/main
 /* image row class */
 .image-row {
   display: flex;
@@ -137,6 +123,15 @@ Version: 1.0
   flex-direction: column;
   justify-content: flex-start;
   gap: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.hero-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.our-story {
   padding-top: 50px;
   padding-bottom: 50px;
 }
