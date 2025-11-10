@@ -118,6 +118,10 @@ Version: 1.0
   margin-bottom: 3rem;
 }
 
+.contact-header {
+  margin-top: 1.25rem;
+}
+
 /* image row class */
 .image-row {
   display: flex;
