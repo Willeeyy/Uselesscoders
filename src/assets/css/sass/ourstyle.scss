@@ -94,6 +94,9 @@ body {
   gap: 30px;
   padding-top: 3rem;
   padding-bottom: 3rem;
+  border-top: #ccc;
+  border-style: solid;
+  border-top-width: 1px;
 }
 .hero-info {
   display: flex;
@@ -113,6 +116,9 @@ footer {
   background-color: #ffffff;
   width: 100%;
   padding: 40px 20px;
+  border-top: #ccc;
+  border-style: solid;
+  border-top-width: 1px;
 
   .footer-container {
     display: flex;
