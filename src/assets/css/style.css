@@ -73,6 +73,7 @@ Version: 1.0
   right: 8px;
   opacity: 1;
 }
+<<<<<<< HEAD
 /* ----- ALL STUFF WE DID ----- */
 /* Hero image*/
 
@@ -225,6 +226,8 @@ footer .footer-container .footer-section.copyright h4 {
   }
 
 /* ----- END OF ALL STUFF WE DID ----- */
+=======
+>>>>>>> origin/main
 
 /*Mixin SASS file*/
 /*! TYPOGRAPHY  */
