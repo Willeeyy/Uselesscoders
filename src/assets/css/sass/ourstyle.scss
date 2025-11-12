@@ -101,6 +101,9 @@ body {
   border-style: solid;
   border-top-width: 1px;
 }
+.no-border {
+  border-top: none;
+}
 .hero-info {
   display: flex;
   flex-direction: row;
