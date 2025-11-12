@@ -153,43 +153,6 @@ footer {
         font-weight: 400;
       }
     }
-    /* Special styling for the copyright section */
-    .footer-section.copyright {
-      flex: 0 0 auto; /* take full width on small screens */
-      display: flex;
-      justify-content: flex-end; /* right-aligned on large screens */
-
-      h4 {
-        margin: 0; /* remove extra spacing */
-        padding-left: 100px;
-        font-size: 14px;
-        font-weight: 300;
-        color: #000000;
-      }
-    }
-  }
-
-  /* Responsive adjustments for smaller screens */
-  @media (max-width: 768px) {
-    .footer-container {
-      display: flex;
-      flex-direction: row;
-      width: 100%;
-      justify-content: space-between;
-      margin-top: 1.25rem;
-      margin-bottom: 3rem;
-    }
-
-    .footer-section {
-      margin-bottom: 20px;
-    }
-
-    .footer-section.copyright {
-      justify-content: flex-start; /* left-align on small screens */
-      align-items: flex-start;
-      flex: 1 1 100%;
-      margin-right: 0;
-    }
   }
 }
 
