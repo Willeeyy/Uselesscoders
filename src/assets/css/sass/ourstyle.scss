@@ -187,4 +187,12 @@ footer {
   }
 }
 
+/* java zoom effect */
+.zoom-img {
+  transition: transform 0.3s ease;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
 /* ----- END OF ALL STUFF WE DID ----- */
