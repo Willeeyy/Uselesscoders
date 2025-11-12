@@ -12,279 +12,313 @@
     <link rel="stylesheet" href="./assets/css/reset.css" type="text/css" />
     <link rel="stylesheet" href="/src/assets/css/sass/ourstyle.scss" />
   </head>
-</html>
 
-<body>
-  <section role="main" id="wrapper">
-    <!--Header-->
-    <header id="header" class="header">
-      <h1>Google News</h1>
-      <!--Menu-->
-      <nav id="menu" class="menu">
-        <ul>
-          <li>
-            <a href="/Offerings">What we do</a>
-          </li>
-          <li>
-            <a href="/About-us" class="current">Who we are</a>
-          </li>
-          <li>
-            <a href="/Customers">Customers</a>
-          </li>
-          <li>
-            <a href="/Careers">Career</a>
-          </li>
-          <li>
-            <a href="/Investor-relations">IR</a>
-          </li>
-          <li>
-            <a href="index.html">Latest</a>
-          </li>
-          <li>
-            <a href="/Contact">Contact</a>
-          </li>
-          <li class="search">
-            <input
-              type="text"
-              id="searchInput"
-              onkeyup="searchFunction()"
-              placeholder="Search titles"
-              title="Type in title search term"
+  <body>
+    <section role="main" id="wrapper">
+      <!--Header-->
+      <header id="header" class="header">
+        <h1>Google News</h1>
+        <!--Menu-->
+        <nav id="menu" class="menu">
+          <ul>
+            <li>
+              <a href="/Offerings">What we do</a>
+            </li>
+            <li>
+              <a href="/About-us" class="current">Who we are</a>
+            </li>
+            <li>
+              <a href="/Customers">Customers</a>
+            </li>
+            <li>
+              <a href="/Careers">Career</a>
+            </li>
+            <li>
+              <a href="/Investor-relations">IR</a>
+            </li>
+            <li>
+              <a href="index.html">Latest</a>
+            </li>
+            <li>
+              <a href="/Contact">Contact</a>
+            </li>
+            <li class="search">
+              <input
+                type="text"
+                id="searchInput"
+                onkeyup="searchFunction()"
+                placeholder="Search titles"
+                title="Type in title search term"
+              />
+            </li>
+            <li class="icon">
+              <a href="javascript:void(0);" onclick="menuFunction()">&#9776;</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </section>
+    <section class="moveUp">
+      <section>
+        <div>
+          <img
+            src="img/Header image.png"
+            alt="Beautiful-modern-building"
+            class="hero"
+          />
+        </div>
+        <div class="hero-info">
+          <div>
+            <h2>
+              5000 <br />
+              People employed
+            </h2>
+          </div>
+          <div>
+            <h2>
+              1967 <br />
+              Year founded
+            </h2>
+          </div>
+          <div>
+            <h2>
+              50+ <br />
+              Countries with subscribers
+            </h2>
+          </div>
+          <div>
+            <h2>
+              100 <br />
+              News per day
+            </h2>
+          </div>
+        </div>
+      </section>
+      <article id="our-story" class="our-story">
+        <h2>Our story</h2>
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+          ab illo inventore veritatis et quasi architecto beatae vitae dicta
+          sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+          aspernatur aut odit aut fugit. Sed quia consequuntur magni dolores eos
+          qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
+          dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
+          quia non numquam eius modi tem pora incidunt ut labore et dolore
+          magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
+          nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
+          aliquid ex ea commodi consequatur? Quis autem vel eum iure
+          reprehenderit qui in ea voluptate velit esse quam nihil molestiae
+          consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla
+          pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus
+          qui blanditiis praesentium voluptatum deleniti atque corrupti quos
+          dolores et quas molestias excepturi sint occaecati cupiditate non
+          provident, similique sunt in culpa qui officia deserunt mollitia
+          animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis
+          est et expedita distinctio. Nam libero tempore, cum soluta nobis est
+          eligendi optio cumque ni hil impedit quo minus id quod maxime placeat
+          facere possimus, omnis voluptas assumenda est, omnis dolor
+          repellendus. Temporibus autem quibusdam et aut officiis debitis aut
+          rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint
+          et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente
+          delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut
+          perferendis doloribus asperiores repellat.
+        </p>
+      </article>
+      <article id="meet-the-team" class="meet-the-team">
+        <h2>Meet the team</h2>
+        <div class="image-row">
+          <figure>
+            <img
+              src="img/image.png"
+              alt="profile picture"
+              class="image-row-padding zoom-img"
             />
-          </li>
-          <li class="icon">
-            <a href="javascript:void(0);" onclick="menuFunction()">&#9776;</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-  </section>
-  <section class="moveUp">
-    <section>
-      <div>
-        <img
-          src="img/Header image.png"
-          alt="Beautiful-modern-building"
-          class="hero"
-        />
-      </div>
-      <div class="hero-info">
-        <div>
-          <h2>
-            5000 <br />
-            People employed
-          </h2>
+
+            <figcaption class="text-hug">
+              <p>Melissa Humble</p>
+              <p>CEO</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              src="img/image2.png"
+              alt="profile picture"
+              class="image-row-padding zoom-img"
+            />
+
+            <figcaption class="text-hug">
+              <p>Melissa Humble</p>
+              <p>CEO</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              src="img/image.png"
+              alt="profile picture"
+              class="image-row-padding zoom-img"
+            />
+
+            <figcaption class="text-hug">
+              <p>Melissa Humble</p>
+              <p>CEO</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              src="img/image2.png"
+              alt="profile picture"
+              class="image-row-padding zoom-img"
+            />
+
+            <figcaption class="text-hug">
+              <p>Melissa Humble</p>
+              <p>CEO</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              src="img/image.png"
+              alt="profile picture"
+              class="image-row-padding zoom-img"
+            />
+
+            <figcaption class="text-hug">
+              <p>Melissa Humble</p>
+              <p>CEO</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              src="img/image2.png"
+              alt="profile picture"
+              class="image-row-padding zoom-img"
+            />
+
+            <figcaption class="text-hug">
+              <p>Melissa Humble</p>
+              <p>CEO</p>
+            </figcaption>
+          </figure>
         </div>
-        <div>
-          <h2>
-            1967 <br />
-            Year founded
-          </h2>
+        <div class="image-row">
+          <figure>
+            <img
+              src="img/image.png"
+              alt="profile picture"
+              class="image-row-padding zoom-img"
+            />
+
+            <figcaption class="text-hug">
+              <p>Melissa Humble</p>
+              <p>CEO</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              src="img/image2.png"
+              alt="profile picture"
+              class="image-row-padding zoom-img"
+            />
+
+            <figcaption class="text-hug">
+              <p>Melissa Humble</p>
+              <p>CEO</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              src="img/image.png"
+              alt="profile picture"
+              class="image-row-padding zoom-img"
+            />
+
+            <figcaption class="text-hug">
+              <p>Melissa Humble</p>
+              <p>CEO</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              src="img/image2.png"
+              alt="profile picture"
+              class="image-row-padding zoom-img"
+            />
+
+            <figcaption class="text-hug">
+              <p>Melissa Humble</p>
+              <p>CEO</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              src="img/image.png"
+              alt="profile picture"
+              class="image-row-padding zoom-img"
+            />
+
+            <figcaption class="text-hug">
+              <p>Melissa Humble</p>
+              <p>CEO</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              src="img/image2.png"
+              alt="profile picture"
+              class="image-row-padding zoom-img"
+            />
+
+            <figcaption class="text-hug">
+              <p>Melissa Humble</p>
+              <p>CEO</p>
+            </figcaption>
+          </figure>
         </div>
-        <div>
-          <h2>
-            50+ <br />
-            Countries with subscribers
-          </h2>
+      </article>
+      <!-- Add footer below this comment line -->
+      <footer>
+        <div class="footer-container">
+          <!-- Section 1: About Us -->
+          <section class="footer-section">
+            <header>
+              <h4>About Us</h4>
+            </header>
+            <div>
+              <p>What we do</p>
+              <p>Who we are</p>
+            </div>
+          </section>
+
+          <!-- Section 2: About You -->
+          <section class="footer-section">
+            <header>
+              <h4>About You</h4>
+            </header>
+            <div>
+              <p>Customers</p>
+              <p>Latest</p>
+            </div>
+          </section>
+
+          <!-- Section 3: Address -->
+          <section class="footer-section">
+            <header>
+              <h4>Address</h4>
+            </header>
+            <div>
+              <p>Google Street 2</p>
+              <p>526 42 Googleville</p>
+            </div>
+          </section>
+
+          <!-- Section 4: Copyright -->
+          <section class="footer-section copyright">
+            <p>© 2022 Google News</p>
+          </section>
         </div>
-        <div>
-          <h2>
-            100 <br />
-            News per day
-          </h2>
-        </div>
-      </div>
+      </footer>
     </section>
-    <section id="our-story" class="our-story">
-      <h2>Our story</h2>
-      <p>
-        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-        illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-        explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-        odit aut fugit. Sed quia consequuntur magni dolores eos qui ratione
-        voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
-        quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam
-        eius modi tem pora incidunt ut labore et dolore magnam aliquam quaerat
-        voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam
-        corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
-        Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse
-        quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
-        voluptas nulla pariatur? At vero eos et accusamus et iusto odio
-        dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque
-        corrupti quos dolores et quas molestias excepturi sint occaecati
-        cupiditate non provident, similique sunt in culpa qui officia deserunt
-        mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum
-        facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis
-        est eligendi optio cumque ni hil impedit quo minus id quod maxime
-        placeat facere possimus, omnis voluptas assumenda est, omnis dolor
-        repellendus. Temporibus autem quibusdam et aut officiis debitis aut
-        rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et
-        molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente
-        delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut
-        perferendis doloribus asperiores repellat.
-      </p>
-    </section>
-    <section id="meet-the-team" class="meet-the-team">
-      <h2>Meet the team</h2>
-      <div class="image-row">
-        <div>
-          <img
-            src="img/image.png"
-            alt="profile picture"
-            class="image-row-padding zoom-img"
-          />
-
-          <div class="text-hug">
-            <p>Melissa Humble</p>
-            <p>CEO</p>
-          </div>
-        </div>
-        <div>
-          <img
-            src="img/image2.png"
-            alt="profile picture"
-            class="image-row-padding zoom-img"
-          />
-          <p>Melissa Humble</p>
-          <p>CEO</p>
-        </div>
-        <div>
-          <img
-            src="img/image.png"
-            alt="profile picture"
-            class="image-row-padding zoom-img"
-          />
-          <p>Melissa Humble</p>
-          <p>CEO</p>
-        </div>
-        <div>
-          <img
-            src="img/image2.png"
-            alt="profile picture"
-            class="image-row-padding zoom-img"
-          />
-          <p>Melissa Humble</p>
-          <p>CEO</p>
-        </div>
-        <div>
-          <img
-            src="img/image.png"
-            alt="profile picture"
-            class="image-row-padding zoom-img"
-          />
-          <p>Melissa Humble</p>
-          <p>CEO</p>
-        </div>
-        <div>
-          <img
-            src="img/image2.png"
-            alt="profile picture"
-            class="image-row-padding zoom-img"
-          />
-          <p>Melissa Humble</p>
-          <p>CEO</p>
-        </div>
-      </div>
-      <div class="image-row">
-        <div>
-          <img
-            src="img/image.png"
-            alt="profile picture"
-            class="image-row-padding zoom-img"
-          />
-          <p>Melissa Humble</p>
-          <p>CEO</p>
-        </div>
-        <div>
-          <img
-            src="img/image2.png"
-            alt="profile picture"
-            class="image-row-padding zoom-img"
-          />
-          <p>Melissa Humble</p>
-          <p>CEO</p>
-        </div>
-        <div>
-          <img
-            src="img/image.png"
-            alt="profile picture"
-            class="image-row-padding zoom-img"
-          />
-          <p>Melissa Humble</p>
-          <p>CEO</p>
-        </div>
-        <div>
-          <img
-            src="img/image2.png"
-            alt="profile picture"
-            class="image-row-padding zoom-img"
-          />
-          <p>Melissa Humble</p>
-          <p>CEO</p>
-        </div>
-        <div>
-          <img
-            src="img/image.png"
-            alt="profile picture"
-            class="image-row-padding zoom-img"
-          />
-          <p>Melissa Humble</p>
-          <p>CEO</p>
-        </div>
-        <div>
-          <img
-            src="img/image2.png"
-            alt="profile picture"
-            class="image-row-padding zoom-img"
-          />
-          <p>Melissa Humble</p>
-          <p>CEO</p>
-        </div>
-      </div>
-    </section>
-    <!-- Add footer below this comment line -->
-    <footer>
-      <div class="footer-container">
-        <!-- Section 1: About Us -->
-        <section class="footer-section">
-          <header>
-            <h4>About Us</h4>
-          </header>
-          <div>
-            <p>What we do</p>
-            <p>Who we are</p>
-          </div>
-        </section>
-
-        <!-- Section 2: About You -->
-        <section class="footer-section">
-          <header>
-            <h4>About You</h4>
-          </header>
-          <div>
-            <p>Customers</p>
-            <p>Latest</p>
-          </div>
-        </section>
-
-        <!-- Section 3: Address -->
-        <section class="footer-section">
-          <header>
-            <h4>Address</h4>
-          </header>
-          <div>
-            <p>Google Street 2</p>
-            <p>526 42 Googleville</p>
-          </div>
-        </section>
-
-        <!-- Section 4: Copyright -->
-        <section class="footer-section copyright">
-          <p>© 2022 Google News</p>
-        </section>
-      </div>
-    </footer>
-  </section>
-  <script src="assets/js/hidemeetborder.js"></script>
-</body>
+    <script src="assets/js/hidemeetborder.js"></script>
+  </body>
+</html>

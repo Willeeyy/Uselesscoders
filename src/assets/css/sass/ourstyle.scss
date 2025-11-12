@@ -134,6 +134,7 @@ footer {
     flex-wrap: wrap; /* allows stacking on small screens */
     justify-content: space-between;
     gap: auto;
+    margin-bottom: 1.25rem;
 
     .footer-section {
       display: flex;

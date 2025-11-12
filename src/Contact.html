@@ -12,260 +12,294 @@
     <link rel="stylesheet" href="./assets/css/reset.css" type="text/css" />
     <link rel="stylesheet" href="/src/assets/css/sass/ourstyle.scss" />
   </head>
+
+  <body>
+    <section role="main" id="wrapper">
+      <!--Header-->
+      <header id="header" class="header">
+        <h1>Google News</h1>
+        <!--Menu-->
+        <nav id="menu" class="menu">
+          <ul>
+            <li>
+              <a href="/Offerings">What we do</a>
+            </li>
+            <li>
+              <a href="About-us.html">Who we are</a>
+            </li>
+            <li>
+              <a href="/Customers">Customers</a>
+            </li>
+            <li>
+              <a href="/Careers">Career</a>
+            </li>
+            <li>
+              <a href="/Investor-relations">IR</a>
+            </li>
+            <li>
+              <a href="/Latest">Latest</a>
+            </li>
+            <li>
+              <a href="/Contact" class="current">Contact</a>
+            </li>
+            <li class="search">
+              <input
+                type="text"
+                id="searchInput"
+                onkeyup="searchFunction()"
+                placeholder="Search titles"
+                title="Type in title search term"
+              />
+            </li>
+            <li class="icon">
+              <a href="javascript:void(0);" onclick="menuFunction()">&#9776;</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </section>
+    <div class="moveUp">
+      <section>
+        <img
+          src="img/beautiful-modern-building-modern-architecture 1.png"
+          alt="Beautiful-modern-building"
+          class="hero"
+        />
+      </section>
+      <header class="contact-header">
+        <h2>Get in touch</h2>
+      </header>
+      <section class="text-row">
+        <article class="text-stack">
+          <header>
+            <h2>General inquiries</h2>
+          </header>
+          <div>
+            <p>info@googlenews.com</p>
+            <p>+846 795 85 96</p>
+          </div>
+        </article>
+        <article class="text-stack">
+          <header>
+            <h2>New business</h2>
+          </header>
+          <div>
+            <p>melissa.humble@googlenews.com</p>
+            <p>Melissa Humble</p>
+          </div>
+        </article>
+        <article class="text-stack">
+          <header>
+            <h2>Careers</h2>
+          </header>
+          <div>
+            <p>job@googlenews.com</p>
+            <p>internship@googlenews.com</p>
+          </div>
+        </article>
+        <div class="icon-row">
+          <img src="img/Tumblr.png" alt="Tumblr" />
+          <img src="img/LinkedIn.png" alt="Linkedin" />
+          <img src="img/Facebook.png" alt="Facebook" />
+        </div>
+      </section>
+      <iframe
+        class="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10045.96897601959!2d7.489521159852551!3d9.052307069297502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0b16593d5103%3A0x122fdbe096ad037f!2sSahad%20Stores%20Head%20Quarters!5e0!3m2!1ssv!2sse!4v1762780585610!5m2!1ssv!2sse"
+      ></iframe>
+    </div>
+    <article id="meet-the-team" class="meet-the-team">
+      <h2>Meet the team</h2>
+      <div class="image-row">
+        <figure>
+          <img
+            src="img/image.png"
+            alt="profile picture"
+            class="image-row-padding zoom-img"
+          />
+
+          <figcaption class="text-hug">
+            <p>Melissa Humble</p>
+            <p>CEO</p>
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            src="img/image2.png"
+            alt="profile picture"
+            class="image-row-padding zoom-img"
+          />
+
+          <figcaption class="text-hug">
+            <p>Melissa Humble</p>
+            <p>CEO</p>
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            src="img/image.png"
+            alt="profile picture"
+            class="image-row-padding zoom-img"
+          />
+
+          <figcaption class="text-hug">
+            <p>Melissa Humble</p>
+            <p>CEO</p>
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            src="img/image2.png"
+            alt="profile picture"
+            class="image-row-padding zoom-img"
+          />
+
+          <figcaption class="text-hug">
+            <p>Melissa Humble</p>
+            <p>CEO</p>
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            src="img/image.png"
+            alt="profile picture"
+            class="image-row-padding zoom-img"
+          />
+
+          <figcaption class="text-hug">
+            <p>Melissa Humble</p>
+            <p>CEO</p>
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            src="img/image2.png"
+            alt="profile picture"
+            class="image-row-padding zoom-img"
+          />
+
+          <figcaption class="text-hug">
+            <p>Melissa Humble</p>
+            <p>CEO</p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="image-row">
+        <figure>
+          <img
+            src="img/image.png"
+            alt="profile picture"
+            class="image-row-padding zoom-img"
+          />
+
+          <figcaption class="text-hug">
+            <p>Melissa Humble</p>
+            <p>CEO</p>
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            src="img/image2.png"
+            alt="profile picture"
+            class="image-row-padding zoom-img"
+          />
+
+          <figcaption class="text-hug">
+            <p>Melissa Humble</p>
+            <p>CEO</p>
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            src="img/image.png"
+            alt="profile picture"
+            class="image-row-padding zoom-img"
+          />
+
+          <figcaption class="text-hug">
+            <p>Melissa Humble</p>
+            <p>CEO</p>
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            src="img/image2.png"
+            alt="profile picture"
+            class="image-row-padding zoom-img"
+          />
+
+          <figcaption class="text-hug">
+            <p>Melissa Humble</p>
+            <p>CEO</p>
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            src="img/image.png"
+            alt="profile picture"
+            class="image-row-padding zoom-img"
+          />
+
+          <figcaption class="text-hug">
+            <p>Melissa Humble</p>
+            <p>CEO</p>
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            src="img/image2.png"
+            alt="profile picture"
+            class="image-row-padding zoom-img"
+          />
+
+          <figcaption class="text-hug">
+            <p>Melissa Humble</p>
+            <p>CEO</p>
+          </figcaption>
+        </figure>
+      </div>
+    </article>
+    <!-- Add footer below this comment line -->
+    <footer>
+      <div class="footer-container">
+        <!-- Section 1: About Us -->
+        <section class="footer-section">
+          <header>
+            <h4>About Us</h4>
+          </header>
+          <div>
+            <p>What we do</p>
+            <p>Who we are</p>
+          </div>
+        </section>
+
+        <!-- Section 2: About You -->
+        <section class="footer-section">
+          <header>
+            <h4>About You</h4>
+          </header>
+          <div>
+            <p>Customers</p>
+            <p>Latest</p>
+          </div>
+        </section>
+
+        <!-- Section 3: Address -->
+        <section class="footer-section">
+          <header>
+            <h4>Address</h4>
+          </header>
+          <div>
+            <p>Google Street 2</p>
+            <p>526 42 Googleville</p>
+          </div>
+        </section>
+
+        <!-- Section 4: Copyright -->
+        <section class="footer-section copyright">
+          <p>© 2022 Google News</p>
+        </section>
+      </div>
+    </footer>
+  </body>
 </html>
-
-<body>
-  <section role="main" id="wrapper">
-    <!--Header-->
-    <header id="header" class="header">
-      <h1>Google News</h1>
-      <!--Menu-->
-      <nav id="menu" class="menu">
-        <ul>
-          <li>
-            <a href="/Offerings">What we do</a>
-          </li>
-          <li>
-            <a href="About-us.html">Who we are</a>
-          </li>
-          <li>
-            <a href="/Customers">Customers</a>
-          </li>
-          <li>
-            <a href="/Careers">Career</a>
-          </li>
-          <li>
-            <a href="/Investor-relations">IR</a>
-          </li>
-          <li>
-            <a href="/Latest">Latest</a>
-          </li>
-          <li>
-            <a href="/Contact" class="current">Contact</a>
-          </li>
-          <li class="search">
-            <input
-              type="text"
-              id="searchInput"
-              onkeyup="searchFunction()"
-              placeholder="Search titles"
-              title="Type in title search term"
-            />
-          </li>
-          <li class="icon">
-            <a href="javascript:void(0);" onclick="menuFunction()">&#9776;</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-  </section>
-  <div class="moveUp">
-    <section>
-      <img
-        src="img/beautiful-modern-building-modern-architecture 1.png"
-        alt="Beautiful-modern-building"
-        class="hero"
-      />
-    </section>
-    <header class="contact-header">
-      <h2>Get in touch</h2>
-    </header>
-    <section class="text-row">
-      <article class="text-stack">
-        <header>
-          <h2>General inquiries</h2>
-        </header>
-        <div>
-          <p>info@googlenews.com</p>
-          <p>+846 795 85 96</p>
-        </div>
-      </article>
-      <article class="text-stack">
-        <header>
-          <h2>New business</h2>
-        </header>
-        <div>
-          <p>melissa.humble@googlenews.com</p>
-          <p>Melissa Humble</p>
-        </div>
-      </article>
-      <article class="text-stack">
-        <header>
-          <h2>Careers</h2>
-        </header>
-        <div>
-          <p>job@googlenews.com</p>
-          <p>internship@googlenews.com</p>
-        </div>
-      </article>
-      <div class="icon-row">
-        <img src="img/Tumblr.png" alt="Tumblr" />
-        <img src="img/LinkedIn.png" alt="Linkedin" />
-        <img src="img/Facebook.png" alt="Facebook" />
-      </div>
-    </section>
-    <iframe
-      class="map"
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10045.96897601959!2d7.489521159852551!3d9.052307069297502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0b16593d5103%3A0x122fdbe096ad037f!2sSahad%20Stores%20Head%20Quarters!5e0!3m2!1ssv!2sse!4v1762780585610!5m2!1ssv!2sse"
-    ></iframe>
-  </div>
-  <section id="meet-the-team" class="meet-the-team">
-    <h2>Meet the team</h2>
-    <div class="image-row">
-      <div>
-        <img
-          src="img/Ultra coder.png"
-          alt="profile picture"
-          class="image-row-padding zoom-img"
-        />
-        <div class="text-hug">
-          <p>Ambjörn Olsson</p>
-          <p>ULTRA CEO</p>
-        </div>
-      </div>
-      <div>
-        <img
-          src="img/Ultra coder.png"
-          alt="profile picture"
-          class="image-row-padding zoom-img"
-        />
-        <p>Ambjörn Olsson</p>
-        <p>CEO</p>
-      </div>
-      <div>
-        <img
-          src="img/Ultra coder.png"
-          alt="profile picture"
-          class="image-row-padding zoom-img"
-        />
-        <p>Ambjörn Olsson</p>
-        <p>Master coder</p>
-      </div>
-      <div>
-        <img
-          src="img/Ultra coder.png"
-          alt="profile picture"
-          class="image-row-padding zoom-img"
-        />
-        <p>Ambjörn Olsson</p>
-        <p>Senior coder</p>
-      </div>
-      <div>
-        <img
-          src="img/Ultra coder.png"
-          alt="profile picture"
-          class="image-row-padding zoom-img"
-        />
-        <p>Ambjörn Olsson</p>
-        <p>Junior coder</p>
-      </div>
-      <div>
-        <img
-          src="img/Ultra coder.png"
-          alt="profile picture"
-          class="image-row-padding zoom-img"
-        />
-        <p>Ambjörn Olsson</p>
-        <p>IT-specialist</p>
-      </div>
-    </div>
-    <div class="image-row">
-      <div>
-        <img
-          src="img/Ultra coder.png"
-          alt="profile picture"
-          class="image-row-padding zoom-img"
-        />
-        <p>Ambjörn Olsson</p>
-        <p>Garen main</p>
-      </div>
-      <div>
-        <img
-          src="img/Ultra coder.png"
-          alt="profile picture"
-          class="image-row-padding zoom-img"
-        />
-        <p>Ambjörn Olsson</p>
-        <p>PGA golfer</p>
-      </div>
-      <div>
-        <img
-          src="img/Ultra coder.png"
-          alt="profile picture"
-          class="image-row-padding zoom-img"
-        />
-        <p>Ambjörn Olsson</p>
-        <p>Game designer</p>
-      </div>
-      <div>
-        <img
-          src="img/Ultra coder.png"
-          alt="profile picture"
-          class="image-row-padding zoom-img"
-        />
-        <p>Ambjörn Olsson</p>
-        <p>Geoguessr PRO</p>
-      </div>
-      <div>
-        <img
-          src="img/Ultra coder.png"
-          alt="profile picture"
-          class="image-row-padding zoom-img"
-        />
-        <p>Ambjörn Olsson</p>
-        <p>Billionaire</p>
-      </div>
-      <div>
-        <img
-          src="img/Ultra coder.png"
-          alt="profile picture"
-          class="image-row-padding zoom-img"
-        />
-        <p>Ambjörn Olsson</p>
-        <p>Absolute UNIT</p>
-      </div>
-    </div>
-  </section>
-  <!-- Add footer below this comment line -->
-  <footer>
-    <div class="footer-container">
-      <!-- Section 1: About Us -->
-      <section class="footer-section">
-        <header>
-          <h4>About Us</h4>
-        </header>
-        <div>
-          <p>What we do</p>
-          <p>Who we are</p>
-        </div>
-      </section>
-
-      <!-- Section 2: About You -->
-      <section class="footer-section">
-        <header>
-          <h4>About You</h4>
-        </header>
-        <div>
-          <p>Customers</p>
-          <p>Latest</p>
-        </div>
-      </section>
-
-      <!-- Section 3: Address -->
-      <section class="footer-section">
-        <header>
-          <h4>Address</h4>
-        </header>
-        <div>
-          <p>Google Street 2</p>
-          <p>526 42 Googleville</p>
-        </div>
-      </section>
-
-      <!-- Section 4: Copyright -->
-      <section class="footer-section copyright">
-        <p>© 2022 Google News</p>
-      </section>
-    </div>
-  </footer>
-</body>
