@@ -31,10 +31,13 @@ body {
   display: flex;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 110vw;
+  margin-left: -10%;
+  margin-right: -10%;
   height: auto;
   padding: 0;
   margin-bottom: 0;
+  justify-content: flex-start;
 }
 
 .text-row {
