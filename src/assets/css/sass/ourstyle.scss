@@ -52,7 +52,7 @@ body {
 .text-stack {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 1.25rem;
 
   p {
     margin: 0;
@@ -122,20 +122,23 @@ body {
 footer {
   background-color: #ffffff;
   width: 100%;
-  padding: 40px 20px;
+  padding-top: 40px;
+  padding-bottom: 20px;
   border-top: #ccc;
   border-style: solid;
   border-top-width: 1px;
 
   .footer-container {
     display: flex;
+    align-items: start;
     flex-wrap: wrap; /* allows stacking on small screens */
     justify-content: space-between;
-    gap: 32px;
+    gap: auto;
 
     .footer-section {
-      flex: 1 1 200px; /* flexible width */
-      min-width: 200px;
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
 
       h4 {
         margin-bottom: 10px;
@@ -156,7 +159,6 @@ footer {
       flex: 0 0 auto; /* take full width on small screens */
       display: flex;
       justify-content: flex-end; /* right-aligned on large screens */
-      margin-right: 20px;
 
       h4 {
         margin: 0; /* remove extra spacing */
@@ -171,9 +173,12 @@ footer {
   /* Responsive adjustments for smaller screens */
   @media (max-width: 768px) {
     .footer-container {
-      flex-direction: column;
-      align-items: flex-start;
-      flex-wrap: wrap;
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      justify-content: space-between;
+      margin-top: 1.25rem;
+      margin-bottom: 3rem;
     }
 
     .footer-section {
@@ -182,6 +187,7 @@ footer {
 
     .footer-section.copyright {
       justify-content: flex-start; /* left-align on small screens */
+      align-items: flex-start;
       flex: 1 1 100%;
       margin-right: 0;
     }
